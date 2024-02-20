@@ -1,9 +1,15 @@
 
 import RComponent from './RComponent.jsx'
+import Lcomponent from './LComponent.jsx'
+
 import LandingPageImg from '../Images/LandingPage.png'
 import LandingBG  from '../Images/Landing_Backgroun_img.png'
 import RectangleBG from '../Images/Landing_Page_FImage.png'
 import ComponentR1Img from '../Images/ComponentR1.png'
+import L1ComponentImg from '../Images/ComponentL1.png'
+import L2ComponentImg from '../Images/ComponentL2.png'
+import L3ComponentImg from '../Images/ComponentL3.png'
+
 import { Button } from '@mui/material';
 
 
@@ -41,6 +47,10 @@ function LandingPage(props){
 
 
         <RComponent image = {ComponentR1Img}></RComponent>
+        <Lcomponent image = {L1ComponentImg}></Lcomponent>
+        <Lcomponent image = {L2ComponentImg}></Lcomponent>
+        <Lcomponent image = {L3ComponentImg}></Lcomponent>
+
 
       <div style={{width:'100%', backgroundImage:`url(${RectangleBG})`}}>
 
