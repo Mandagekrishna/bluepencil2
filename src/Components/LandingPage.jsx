@@ -1,7 +1,9 @@
 
+import RComponent from './RComponent.jsx'
 import LandingPageImg from '../Images/LandingPage.png'
 import LandingBG  from '../Images/Landing_Backgroun_img.png'
 import RectangleBG from '../Images/Landing_Page_FImage.png'
+import ComponentR1Img from '../Images/ComponentR1.png'
 import { Button } from '@mui/material';
 
 
@@ -38,7 +40,7 @@ function LandingPage(props){
 </div>
 
 
-
+        <RComponent image = {ComponentR1Img}></RComponent>
 
       <div style={{width:'100%', backgroundImage:`url(${RectangleBG})`}}>
 
