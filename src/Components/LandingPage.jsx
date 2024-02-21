@@ -11,6 +11,7 @@ import L2ComponentImg from '../Images/ComponentL2.png'
 import L3ComponentImg from '../Images/ComponentL3.png'
 
 import { Button } from '@mui/material';
+import { Link} from 'react-router-dom'
 
 
 function LandingPage(props){
@@ -22,14 +23,14 @@ function LandingPage(props){
         <table >
                 <tr >
                     
-                    <td style={{textAlign:'center', width:'800px',padding:'10%'}}>
+                    <td style={{textAlign:'center', minWidth:'200px',padding:'10%'}}>
                     <h1>Introduce Your Product Quickly & Effectively</h1>
                         <p >
                          ipsum dolor sit amet, consectetuer adipiscing elit. 
                         Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
                         nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
                         </p>
-                        <Button variant='contained' style={{margin:'10px'}}>Purchase kit now</Button>
+                        <Link to="/purchase"><Button variant='contained' style={{margin:'10px'}}>Purchase kit now</Button></Link>
                         <Button variant='outlined' style={{margin:'10px'}}>Learn More</Button>
 
 
@@ -66,7 +67,7 @@ function LandingPage(props){
 
             <h1  style={{textAlign:'center', width:'500px'}}>$40</h1>
 
-          <Button variant='contained' style={{margin:'10px', left:'15%'}}>Purchase Now</Button>
+          <Link to='/Purchase'><Button variant='contained' style={{margin:'10px', left:'15%'}}>Purchase Now</Button></Link>
       </div>
 
       </div>

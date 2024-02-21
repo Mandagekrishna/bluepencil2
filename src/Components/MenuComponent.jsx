@@ -7,7 +7,8 @@ function Menu(){
         <ul >
             <li style={{float:'left', padding:'20px', listStyleType:'none'}}><Link to="/">Home</Link></li>
             <li style={{float:'left',  padding:'20px' ,listStyleType:'none'}}><Link to="/about">About</Link> </li>
-            <li style={{float:'left',  padding:'20px',listStyleType:'none'}}><Link to="/contact">Contact</Link></li>
+            <li style={{float:'left',  padding:'20px',listStyleType:'none'}}><Link to="/purchase">Purchase</Link></li>
+
         </ul> 
         </div>
     )

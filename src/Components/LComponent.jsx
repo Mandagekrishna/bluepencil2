@@ -10,7 +10,7 @@ function Lcomponent(props){
                     <img src={props.image}></img>
                 </td>
 
-                <td style={{textAlign:'center', width:'800px',padding:'10%'}}>
+                <td style={{textAlign:'center', minWidth:'200px',padding:'10%'}}>
                     <h1>Light, Fast and Powerful</h1>
                     <p >
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 

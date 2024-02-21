@@ -4,7 +4,7 @@ function RComponent(props)
     <>
         <table>
             <tr>
-                <td style={{textAlign:'center', width:'800px',padding:'10%'}}>
+                <td style={{textAlign:'center', minWidth:'200px',padding:'10%'}}>
                     <h1>Light, Fast and Powerful</h1>
                     <p style={{textAlign:'right'}}>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
                     Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 

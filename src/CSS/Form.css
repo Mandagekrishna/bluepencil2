@@ -1,0 +1,18 @@
+.InputField{
+    background-color: azure;
+    height: 50px;
+    width: 700px;
+    margin: 20px;
+    border-color: thistle;
+   margin-right: 30px;
+   font-family: Arial, sans-serif;
+   font-size: large;
+   border-radius: 2px;
+   
+}
+
+.LabelField{
+    font-size: x-large;
+    margin-left: 3%;
+    
+}

@@ -25,7 +25,7 @@ function About(){
                             
                             
                         
-                            <Link to={'/contact'}><Button variant="contained"style={{margin:'auto',position:'center', display:'block',marginTop:'40px'}} >Contact</Button></Link>
+                            <Link to={'/purchase'}><Button variant="contained"style={{margin:'auto',position:'center', display:'block',marginTop:'40px'}} >Contact</Button></Link>
                     </section>
                         
                 
