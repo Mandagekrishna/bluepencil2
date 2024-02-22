@@ -15,7 +15,7 @@ function PurchaseComponent()
                                 }}
                                 onSubmit={(values, actions) => {
                                     setTimeout(() => {
-                                      alert(JSON.stringify(values, null, 2));
+                                      alert("thank you for shopping with us " + values.Firstname);
                                       actions.setSubmitting(false);
                                     });}}
 
